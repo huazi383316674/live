@@ -1,0 +1,1 @@
+alter table a_income_payment_records rename column sum to amount;

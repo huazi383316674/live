@@ -1,0 +1,30 @@
+div.placeholder {
+	display: inline-block;
+}
+
+div.tag {
+	border-radius: 3px;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	padding: 0px 2px;
+	display: inline-block;
+}
+
+div.unsubmitted,sup.unsubmitted {
+	background: none repeat scroll 0 0 gray;
+}
+
+div.submitted,sup.submitted {
+	background: none repeat scroll 0 0 #008EFD;
+	border: 1px solid #007DE2;
+}
+
+div.accepted,sup.accepted {
+	background: none repeat scroll 0 0 #B4DB6F;
+	border: 1px solid #BADE7D;
+}
+
+div.rejected,sup.rejected {
+	background: none repeat scroll 0 0 #CC0000;
+	border: 1px solid #E3A1A1;
+}

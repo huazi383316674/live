@@ -1,0 +1,75 @@
+@charset "utf-8";
+/* CSS Document */
+*{ background-repeat: no-repeat; }
+body{margin:0px; padding:0px;font-family: Arial, Helvetica, sans-serif; line-height:25px;font-size:12px; }
+
+a{ color: #000000; text-decoration: none }
+a:hover{  text-decoration: underline }
+ul,li,dl,dd,dt{ margin: 0px ; padding: 0px; }
+.d1{  list-style: none }
+
+h1{font-size:12px; margin:0px; }
+h2{font-size:14px; margin:0px; }
+h3{ font-size: 16px; margin:0px; }
+
+.BlankLine00{ height: 2px; line-height:2px; clear: both; font-size: 1px; background-color: #ffffff  }
+.BlankLine0{ height: 1px; line-height:1px; clear: both; font-size: 1px; background-color: #ffffff  }
+.BlankLine1{ height: 10px; line-height:10px; clear: both; font-size: 1px;  }
+.BlankLine2{ height: 20px; line-height:20px; clear: both  }
+.BlankLine3{ height: 30px; line-height:30px;clear: both  }
+.BlankLine4{ height: 40px; line-height:40px; clear: both;}
+.BlankLine5{ height: 50px; line-height:50px; clear: both;}
+.BlankLine6{ height: 65px; line-height:65px; clear: both;}
+
+.f1{ color:#073974;}
+
+.clear{ height: 1px; line-height: 1px; font-size:1px; border-bottom: 1px #cccccc dotted  }
+.hit1{ text-decoration: underline }
+
+img{ border: 0px; }
+form{ margin: 0px; padding: 0px; }
+input,select{ border: 1px #cccccc solid;}
+
+#BodyBg{margin:0px auto; width:1004px; background:#cde2eb }
+#login_box{ width:1003px; margin:0px auto; padding-top:210px;background:url(images/login/background.jpg) no-repeat  top #0d63a3; height:420px;}
+.ip1{ background:url(images/login/button.jpg) no-repeat; border:none; width:55px; height:20px; text-align:center; line-height:20px; cursor:pointer}
+.ip2{ width:130px ; border:1px #7f9db9 solid; height:18px ; line-height:18px;}
+.ip2_2{ width:80px;border:1px #7f9db9 solid; height:18px ; line-height:18px;}
+
+.title_1{ color:#07497a; font-size:20px; text-align:center}
+#login_text{  color:#07497a;}
+.pic_box{ float:left; width:484px; height:166px; padding:38px 0px 0px 152px;}
+.login_box{ float:left;padding:60px 0px 0px 10px;}
+
+.div_1{ padding-left:165px; color:#0066ff}
+.f1{ color:#333333}
+
+
+#TopMain{ height: 108px; background:url(top.jpg) no-repeat; }
+.title_2{ padding:70px 0px 0px 770px; color:#04548a}
+
+#MainBody{padding:10px 70px; background-color: #cde2eb; float: left; width:864px}
+.title_3{ background:url(bg3.jpg) repeat-x;color:#073974; font-weight:bold; padding-left:10px; height:32px; line-height:32px; border-top:1px #aed2ff solid; border-bottom:1px #aed2ff solid; }
+
+#MMiddle{ float: left;   border:1px #81b4d1 solid; padding:5px; width:98%; background:#e7f3f8}
+.table_1{ border-top:1px #d4e5ec solid; border-left:1px #d4e5ec solid; background:#ffffff}
+.table_1 tr td{ border-right:1px #d4e5ec solid; border-bottom:1px #d4e5ec solid; padding:0px 5px}
+.ip3{ background:url(bt1.jpg) no-repeat; width:72px; height:42px; line-height:42px; text-align:center; color:#03527f; border:none; font-weight:bold; cursor:pointer}
+.ip4{ background:url(bt2.jpg) no-repeat; width:72px; height:24px; line-height:24px; text-align:center; color:#03527f; border:none; font-weight:bold; cursor:pointer}
+.bg_1{ background:url(line1.jpg) 25px 50% no-repeat;}
+.title_4{ background:url(bg4.jpg) repeat-x; height:31px; line-height:31px;color:#073974; font-weight:bold;padding-left:10px;  }
+.ip5{ width:100px ; border:1px #cccccc solid}
+.table_1 thead tr td{ background:url(bg5.jpg) repeat-x; height:29px; line-height:29px; text-align:center;}
+.table_1 tbody tr td{text-align:center; height:35px}
+
+#MRight{ margin: 0px 0px 0px 10px;width:182px;background-color: #ffffff; float: left; }
+
+
+#BottomBg{ color: #ffffff; height: 20px; text-align: center;background:#04558c; background-repeat: repeat-x; clear: both }
+
+
+/*pic_change*/
+#s4{ width:484px; height:166px; overflow:hidden; }
+#s4 img{ width:484px; height:166px; }
+#s4 div{ width:484px; height:166px;color:#000000; }
+

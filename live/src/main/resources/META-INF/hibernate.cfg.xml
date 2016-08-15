@@ -1,0 +1,37 @@
+<!DOCTYPE hibernate-configuration PUBLIC
+	"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+	"http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+	<session-factory>
+		<mapping class="com.sad.model.baseCode.BaseCoder" />
+
+		<mapping class="com.sad.model.baseCode.BusinessType" />
+		<mapping class="com.sad.model.baseCode.IncomePaymentType" />
+
+		<mapping class="com.sad.model.IncomePaymentRecord" />
+		<mapping class="com.sad.model.DebtRecord" />
+		<mapping class="com.sad.model.DebtReturnRecord" />
+
+		<!--  公共用户消费管理 -->
+		<mapping class="com.sad.model.CommonUser" />
+		<mapping class="com.sad.model.CommonUserConsume" />
+
+		<mapping class="com.sad.model.HolidayRemind" />
+		<mapping class="com.sad.model.Joke" />
+
+		<!-- 购物相关 -->
+		<mapping class="com.sad.model.shopping.ShoppingGoods" />
+		<mapping class="com.sad.model.shopping.ShoppingGoodsType" />
+		<mapping class="com.sad.model.shopping.ShoppingOrder" />
+		<mapping class="com.sad.model.shopping.ShoppingOrderInfo" />
+
+		<!-- 功能意见 -->
+		<mapping class="com.sad.model.suggest.Suggest" />
+		<mapping class="com.sad.model.suggest.SuggestAttachment" />
+		<mapping class="com.sad.model.suggest.SuggestHandleType" />
+		<mapping class="com.sad.model.suggest.SuggestTail" />
+
+		<!-- 用户部门 -->
+		<mapping class="org.beangle.ems.security.model.Department" />
+	</session-factory>
+</hibernate-configuration>

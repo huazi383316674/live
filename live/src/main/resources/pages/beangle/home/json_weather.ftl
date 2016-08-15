@@ -1,0 +1,2 @@
+[#ftl]
+${(weatherInfo)!}

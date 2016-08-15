@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+	"http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+	<package name="live" extends="beangle">
+		<action name="home" class="home"/>
+	
+		<action name="moneyBaseCode" class="moneyBaseCode"/>
+		<action name="incomePaymentRecord" class="incomePaymentRecord"/>
+		<action name="debtRecord" class="debtRecord"/>
+		<action name="debtReturn" class="debtReturn"/>
+		<action name="debtStat" class="debtStat"/>
+		
+		<!-- 统计 -->
+		<action name="calendarStatement" class="calendarStatement"/>
+		<action name="inPayStat" class="inPayStat"/>
+		
+		<!--  公共用户消费管理 -->
+		<action name="commonUser" class="commonUser"/>
+		<action name="commonUserConsume" class="commonUserConsume"/>
+		<action name="commonUserWorkRecord" class="commonUserWorkRecord"/>
+		
+		<action name="holidayRemind" class="holidayRemind"/>
+		
+		<!--  购物相关管理 -->
+		<action name="shoppingGoods" class="shoppingGoods"/>
+		<action name="shoppingOrder" class="shoppingOrder"/>
+		<action name="shoppingOrderManage" class="shoppingOrderManage"/>
+		
+		<!-- 功能意见 -->
+		<action name="suggest" class="suggest"/>
+		<action name="suggestForManager" class="suggestForManager"/>
+		<action name="suggestForUser" class="suggestForUser"/>
+		
+		<action name="moneyData" class="moneyData"/>
+	</package>
+</struts>

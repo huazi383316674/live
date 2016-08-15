@@ -1,0 +1,36 @@
+
+body {
+	background-image: url("images/login/login-body.png");
+	background-position: center top;
+	background-repeat: no-repeat;
+	font: 13px/1.231 arial,helvetica,clean,sans-serif;
+}
+
+div.logindiv {
+	padding-top:220px;
+	margin-bottom:0px;
+}
+div.foot {
+	height:290px;
+}
+table.logintable {
+	margin:auto;
+	font-size:10px;
+	width:680px;
+}
+td.rowhead {
+	width:530px;
+	text-align:right;
+}
+input[type=text],input[type=password] {
+    background-color: #E0EDF3;
+    /*background-color: #A4C5E0;*/
+    /*background-color: #B0B0B0;*/
+    border: 1px solid #035793;
+}
+.button-s {
+    padding: 3px 5px;
+    height:35pt;
+    width:35pt;
+    border:medium none
+}
